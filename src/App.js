@@ -46,7 +46,7 @@ function App() {
       ->IMP:And component basically takes (store) as (prop):through which we are able to pass our redux-store to the component:*/}
       <Provider store={store}>
         {/* Using the (BrowserRouter) component of (react-router) for creating the routing in our application: */}
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
           <Routes>
             {/* Understanding <Fragment>:
             => 1: <Fragment> is a React component that allows you to group multiple elements without adding an unnecessary wrapper element (like <div>).
@@ -79,7 +79,7 @@ function App() {
           </Routes>
           {/* <TodoForm onCreateTodo={createTodo} />
           <TodoList todos={todos} onToggle={toggleTodo} /> */}
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
       </Provider>
     </div>
   );
